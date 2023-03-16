@@ -18,6 +18,14 @@
         <?php include 'include/menu.php';?>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <?php include 'include/practica3.php'; ?>
+            </div>
+        </div>
+    </div>
+
 
 
 
