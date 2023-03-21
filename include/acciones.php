@@ -7,7 +7,7 @@ if(isset($_POST['btnRegistro'])){
     $apellidoP = $connection->real_escape_string($_POST['ApellidoP']);
     $apellidoM = $connection->real_escape_string($_POST['ApellidoM']);
     $user = $connection->real_escape_string($_POST['Username']);
-    $direccion = $coonection->real_escape_string($_POST['Direccion']);
+    $direccion = $connection->real_escape_string($_POST['Direccion']);
     $telefono = $connection->real_escape_string($_POST['Telefono']);
     $fecha = $connection->real_escape_string($_POST['Fecha']);
     $email = $connection->real_escape_string($_POST['Email']);
