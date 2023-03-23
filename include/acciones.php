@@ -24,7 +24,6 @@ if(isset($_POST['btnRegistro'])){
             header("location:index.php");
             echo "Registro exitoso";
         }else{
-            header("location:index.php");
             echo "Error al registrar";
         }
 
